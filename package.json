@@ -1,7 +1,8 @@
 {
-  "name": "nutrition-dashboard",
+  "name": "syai",
+  "productName": "SYAI",
   "version": "1.0.0",
-  "description": "An Electron application with React and TypeScript",
+  "description": "Show Your AI Idea - あなたの「好き」が、AIを操るアイデアに変わる",
   "main": "./out/main/index.js",
   "author": "example.com",
   "homepage": "https://electron-vite.org",
