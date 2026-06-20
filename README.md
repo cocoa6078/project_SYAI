@@ -1,34 +1,42 @@
-# nutrition-dashboard
+# 🔥 SYAI (Show Your AI Idea)
+**札幌すごいAIハッカソン 2026春 提出作品**
 
-An Electron application with React and TypeScript
+> 「あなたの『好き』が、AIを操るアイデアに変わる。」
 
-## Recommended IDE Setup
+## 💡 プロジェクトの概要 (テーマ：AI未経験者に「火をつける」方法)
+AI未経験者に「プロンプトの書き方」や「業務効率化」を教えても、心に火はつきません。
+**SYAI**は、ユーザーが普段楽しんでいる趣味（YouTubeやXの閲覧履歴）を自動で収集・分析し、**「自分の趣味を100倍楽しむためのAI活用アイデアと専用プロンプト」**をRPGのステータスのように診断・生成するデスクトップアプリです。
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+未経験者がAIを「学ぶ」のではなく、自分の好きなことを通じて自然とAIに「熱狂する」ためのゼロ・フリクションな体験を提供します。
 
-## Project Setup
+## ✨ 主な機能と特徴
+1. **ゼロ・エフォートのデータ収集 (The Dumb Pipe)**
+   Chrome拡張機能がバックグラウンドでSNSの閲覧メタデータを静かに収集。ユーザーは普段通りに「好きなもの」を見るだけでデータが蓄積されます。
+2. **Geminiによる高度なパーソナライズ (The Smart Dashboard)**
+   収集した「興味データ」を最新のGemini 3.5 Flashが分析。個人の趣味に完全に特化した魔法（実践的プロンプト）を生成します。
+3. **ゼロ・フリクションの即時実行 (Actionable UX)**
+   生成されたプロンプトは、ボタン1つでコピー＆Geminiのチャット画面を即座に開くことができ、迷うことなくAI体験へ直行できます。
+4. **バイラル共有機能 (Viral Loop)**
+   自分のAI属性とステータスをX(Twitter)でシェアし、他の未経験者へもAIの面白さを伝播させます。
 
-### Install
+## 🛠 動作環境・技術スタック
+- **Frontend / Desktop**: React, Electron, TypeScript, Vite
+- **Extension**: Chrome Extension API (Manifest V3)
+- **AI / LLM**: Gemini API (gemini-3.5-flash)
 
-```bash
-$ npm install
-```
+## 🚀 インストールと使い方（審査員の方へ）
+リポジトリの [Releases] ページから、コンパイル済みのパッケージをダウンロードしてすぐにテスト可能です。
 
-### Development
+### ステップ1: SYAIダッシュボードの起動
+1. Releasesから `SYAI Setup 1.0.0.exe` をダウンロードして実行します。
+2. アプリが起動したら、Gemini APIキーを入力して待機します。
 
-```bash
-$ npm run dev
-```
+### ステップ2: Chrome拡張機能の導入
+1. Releasesから `chrome_extension_for_SYAI.zip` をダウンロードし、任意のフォルダに解凍します。
+2. Chromeブラウザで `chrome://extensions/` を開きます。
+3. 右上の「デベロッパーモード」をONにし、「パッケージ化されていない拡張機能を読み込む」をクリックして、解凍したフォルダを選択します。
 
-### Build
-
-```bash
-# For windows
-$ npm run build:win
-
-# For macOS
-$ npm run build:mac
-
-# For Linux
-$ npm run build:linux
-```
+### ステップ3: AIの魔法を覚醒させる
+1. YouTubeやX(Twitter)を数分閲覧すると、ダッシュボード上の「解析済みの興味」カウントが増加します。
+2. データが溜まったら、**「🔥 AIになげるネタ生成」**ボタンをクリックします。
+3. 診断結果が出たら、**「🪄 コピーしてAIを使う」**を押して、実際にAIとの対話をお楽しみください！
