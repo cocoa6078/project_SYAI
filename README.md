@@ -24,7 +24,7 @@ AI未経験者に「プロンプトの書き方」や「業務効率化」を教
 - **Extension**: Chrome Extension API (Manifest V3)
 - **AI / LLM**: Gemini API (gemini-3.5-flash)
 
-## 🚀 インストールと使い方（審査員の方へ）
+## 🚀 インストールと使い方
 リポジトリの [Releases] ページから、コンパイル済みのパッケージをダウンロードしてすぐにテスト可能です。
 
 ### ステップ1: SYAIダッシュボードの起動
